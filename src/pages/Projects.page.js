@@ -14,6 +14,7 @@ function ProjectsPage(props) {
 
     useEffect(() => {
         getProjectsData();
+        // eslint-disable-next-line
     }, []);
 
     const loaded = () => {

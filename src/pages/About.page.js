@@ -20,6 +20,7 @@ function AboutPage(props) {
     // make initial call for the data inside a useEffect so it only happens once on intial load
     useEffect(() => {
         getAboutData();
+        // eslint-disable-next-line 
     }, []);
 
     // define ternary that will return JSX once loaded 
