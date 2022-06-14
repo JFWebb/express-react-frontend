@@ -10,6 +10,7 @@ function Header(props) {
     width: "90%",
     margin: "auto",
   };
+  
   return (
       <header>
           <h1>My Portfolio Page</h1>
