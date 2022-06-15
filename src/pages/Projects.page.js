@@ -19,14 +19,14 @@ function ProjectsPage(props) {
 
     const loaded = () => {
         return projects.map((project) => (
-            <div>
+            <div className="container" id="projectCard">
                 <h1>{project.name}</h1>
                 <img src={project.image} alt={project.name} width="200px"/>
                 <a href={project.git}>
-                    <button>Github</button>
+                    <button className="btn btn-outline-primary">Github</button>
                 </a>
                 <a href={project.live}>
-                    <button>Live Site</button>
+                    <button className="btn btn-outline-success">Live Site</button>
                 </a>
             </div>
         ))

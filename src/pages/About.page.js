@@ -26,8 +26,9 @@ function AboutPage(props) {
     // define ternary that will return JSX once loaded 
     const loaded = () => (
         <div>
+            <img src={about.headshot} alt="art of Julie" />
             <h2>{about.name}</h2>
-            <h3>{about.email}</h3>
+            <h3 className="text-secondary">{about.email}</h3>
             <p>{about.bio}</p>
         </div>
     );
