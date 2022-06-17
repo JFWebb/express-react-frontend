@@ -1,5 +1,5 @@
 function Footer(props) {
-    return <h1 className="text-black-50">I truly dont know what should go here forgive me Kelsey</h1>;
+    return <h1 className="text-black-50">This is where the footer would be</h1>;
 }
 
 export default Footer;
